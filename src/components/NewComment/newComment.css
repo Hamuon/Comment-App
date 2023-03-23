@@ -1,0 +1,35 @@
+.newComment {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  background: #e0e7ff;
+  width: 600px;
+  color: #4338ca;
+  border-radius: 5px;
+}
+
+.newComment button {
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  background-color: #4338ca;
+  color: #fff;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.newComment input,
+.newComment textarea {
+  outline: none;
+  border: none;
+  padding: 5px 5px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+.formControl {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
